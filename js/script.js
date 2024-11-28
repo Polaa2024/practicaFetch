@@ -4,7 +4,6 @@
 const DATA_URL = "json/data.json"; // URL que contiene los datos que queremos mostrar
 const hola = "https://japdevdep.github.io/ecommerce-api/category/all.json";
 const container = document.getElementById("container"); // "Traemos" utilizando el DOM el div de id "container" para colocar la información en él
-
 /**
  * Función que recibe por parámetro un array con los datos que se mostrarán en el DOM
  * Los datos se mostrarán dentro del div de id "container" y por cada ítem se está creando un nuevo párrafo donde se
